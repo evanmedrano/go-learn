@@ -1,0 +1,31 @@
+* computers run on electricity
+* electricity can be ON or OFF
+* coding schemes
+	* assign meaning to ON or OFF
+	* porch light on Halloween
+		* 1 light  = 2 messages
+		* 2 lights = 4 messages
+		* 3 lights = 8 messages
+		* 4 lights = 16 messages
+		* 5 lights = 32 messages
+		* 6 lights = 64 messages
+		* 7 lights = 128 messages
+		* 8 lights = 256 messages
+
+* Binary digits
+  * 1 = ON 0 = OFF
+  * ON and OFF, Binary Digits, Bits, and Machine Language are all words used to
+    refer to this idea that, w/in a computer, it's all nothing but a bunch of
+    ZERO's and ONE's, or switches that are ON or OFF, it's all just a bunch of
+    Binary Digits, or Bits. That's the language which computers speak, it's
+    machine language
+
+* UTF-8 is the most popular coding scheme
+
+* Measuring bits
+  * 1 bit
+  * 8 bits = byte
+  * 1024 bytes = kb
+  * 1024 kb = mb
+  * 1024 mb = gb
+  * 1024 gb = tb
