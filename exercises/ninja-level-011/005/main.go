@@ -10,8 +10,8 @@ func main() {
 func average(f []float64) float64 {
 	var total float64
 
-	for i := 0; i < len(f); i++ {
-		total += f[i]
+	for _, v := range f {
+		total += v
 	}
 
 	return total / float64(len(f))
