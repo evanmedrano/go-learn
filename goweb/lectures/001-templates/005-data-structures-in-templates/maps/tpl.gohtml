@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Peeps</title>
+  </head>
+  <body>
+    <!-- without variables -->
+    {{range .}}
+    <li>{{.}}</li>
+    {{end}}
+
+    <!-- with variables -->
+    {{range $key, $value := .}}
+    <li>{{$key}} - {{$value}}</li>
+    {{end}}
+  </body>
+</html>

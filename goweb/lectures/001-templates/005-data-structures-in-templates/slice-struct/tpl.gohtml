@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Peeps</title>
+  </head>
+  <body>
+    <!-- without variables -->
+    <ul>
+      {{range .}}
+      <li>{{.Name}} - {{.Motto}}</li>
+      {{end}}
+    </ul>
+    <!-- with variables -->
+    <ul>
+      {{range .}}
+      {{$x := .Name}}
+      {{$y := .Motto}}
+      <li>{{$x}} - {{$y}}</li>
+      {{end}}
+    </ul>
+  </body>
+</html>
