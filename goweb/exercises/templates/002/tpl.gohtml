@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotels</title>
+</head>
+<body>
+  <h1>Hotel info</h1>
+
+  {{range .}}
+    {{if eq .Region "Northern"}}
+      <h2>Northern Hotels</h2>
+      <h3>{{.Name}}</h3>
+      <p>{{.Address}}, {{.City}}, {{.Zip}}</p>
+    {{else if eq .Region "Central"}}
+      <h2>Central Hotels</h2>
+      <h3>{{.Name}}</h3>
+      <p>{{.Address}}, {{.City}}, {{.Zip}}</p>
+    {{else if eq .Region "Southern"}}
+      <h2>Southern Hotels</h2>
+      <h3>{{.Name}}</h3>
+      <p>{{.Address}}, {{.City}}, {{.Zip}}</p>
+    {{end}}
+  {{end}}
+</body>
+</html>
